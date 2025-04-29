@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { GoogleGenAI } from '@google/genai'
 import { ClipLoader } from 'react-spinners';
 
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_KEY });
+const ai = new GoogleGenAI({apiKey: import.meta.env.VITE_GEMINI_KEY});
 
 function App() {
     const [industry, setIndustry] = useState("")
